@@ -1,0 +1,154 @@
+a:link {
+	color: #333333;
+}
+
+a:visited,a:focus,a:hover,a:active {
+	color: #125b9a;
+}
+
+body {
+	background-attachment: fixed;
+	color: #333333;
+	margin: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+}
+
+.btn:hover,.btn:focus,.btn:active {
+	background-color: #ebebeb;
+}
+
+caption {
+	font-size: 2em;
+	clear: both;
+	margin: 0.5em;
+	font-weight: bold;
+	color: #125b9a;
+}
+
+fieldset {
+	padding: 0.5em;
+	margin: 1em;
+}
+
+h1 {
+	color: #125b9a;
+	margin-top: 2em;
+	font-size: 2em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	clear: both;
+}
+
+h2 {
+	color: #125b9a;
+	font-size: 1.3em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	clear: both;
+	text-align: left;
+}
+
+input {
+	font-size: 0.9em;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	cursor: pointer;
+}
+
+label {
+	font-size: 0.8em;
+}
+
+li {
+	text-align: left;
+}
+
+table {
+	border: 0.1em solid #333333;
+	border-collapse: collapse;
+	text-align: left;
+	width: 65em;
+}
+
+td {
+	border: 0.5px solid #333333;
+	padding: 0.5em;
+}
+
+th {
+	border-right: 0.1em solid white;
+	background-color: #333333;
+	color: white;
+	padding: 0.5em;
+	text-align: center;
+}
+
+#back {
+	float: left;
+}
+
+.big {
+	text-align: center;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	width: 65em;
+	padding: 2em;
+	color: #333333;
+}
+
+#big_form {
+	width: 48em;
+}
+
+#big_impressum,#h1_impressum {
+	text-align: left;
+}
+
+#body_form {
+	background-image: url(biblio.png);
+}
+
+#body_impressum {
+	background-color: #333333;
+}
+
+#body_table {
+	background-image: url(stb.png);
+}
+
+.btn {
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	color: #333333;
+	background-color: #ffffff;
+	border: 1px solid #adadad;
+}
+
+.grey {
+	background-color: #ebebeb;
+}
+
+.right {
+	float: right;
+}
+
+#searchText,#searchTitle {
+	display: block;
+}
+
+td.tdTag {
+	font-weight: bold;
+}
+
+td.tdInline,td.tdBlock,td.tdJa,td.tdNein {
+	text-align: center;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Webblog fuer Web-Engineering I mit Carousel-Vorlage von Bootstrap">
+    <meta name="author" content="Elena Unisaer">
+    <link rel="shortcut icon" href="dist/ico/favicon.png">
+
+    <title>Webblog fuer Web-Engineering I mit Carousel-Vorlage von Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="dist/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">          
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Startseite</a></li>             
+                <li><a href="impressum.html">Impressum</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Auswahlmenue <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://iversity.org/courses/web-engineering-i-grundlagen-der-web-entwicklung">MOOC-Kurs "Web-Engineering I"</a></li>
+                    <li><a href="table.html">Mit CSS formatierte Tabelle aller "XHTML 1.0 strict"-Elemente</a></li>
+                    <li><a href="form.html">Barrierefreies Suchformular</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Externe Links</li>
+                    <li><a href="https://iversity.org">Iversity</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+           <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>27 Kurse werden zurzeit bei Iversity angeboten</p>
+              <p><a class="btn btn-lg btn-primary" href="https://iversity.org" role="button">Mehr erfahren</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>MOOC-Kurs Web-Engineering I startete am 15.Oktober 2013</p>
+              <p><a class="btn btn-lg btn-primary" href="https://iversity.org/courses/web-engineering-i-grundlagen-der-web-entwicklung" role="button">Mehr erfahren</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>MOOC-Kurs Web-Engineering II startet am 17.Januar 2014</p>
+              <p><a class="btn btn-lg btn-primary" href="https://iversity.org/courses/web-engineering-ii-developing-mobile-html5-apps" role="button">Mehr erfahren</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="https://iversity.org/courses/web-engineering-i-grundlagen-der-web-entwicklung"><img class="img-circle" src="mooc_160_160.png" alt="mooc"></a>
+          <h2><a href="https://iversity.org/courses/web-engineering-i-grundlagen-der-web-entwicklung">MOOC-Kurs "Web-Engineering I"</a></h2>
+          <p>Der MOOC-Kurs Web-Engineering I startete am 15.Oktober 2013 bei Iversity. Iversity ist die Lernplattform, 
+          		die von Hannes Kloepper und Jonas Liepmann 2011 ins Leben gerufen wurde.</p>
+          <p><a class="btn btn-default" href="https://iversity.org/courses/web-engineering-i-grundlagen-der-web-entwicklung" role="button">Mehr erfahren &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a href="table.html"><img class="img-circle" src="table_160_160.png" alt="table"></a>
+          <h2><a href="table.html"> Mit CSS formatierte Tabelle aller "XHTML 1.0 strict"-Elemente</a></h2>
+	          <p>Die Tabelle enthaelt die Beschreibung aller Elemente, die nach dem "XHTML 1.0 strict"-Standard erlaubt sind. 
+	          	 Die Tabelle teilt diese Elemente in semantische / nicht semantische und in Block- / Inline-Elemente auf.
+            </p>
+          <p><a class="btn btn-default" href="table.html" role="button">Mehr erfahren &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a href="form.html"><img class="img-circle" src="biblio_160_160.png" alt="biblio"></a>
+          <h2><a href="form.html">Barrierefreies Suchformular</a></h2>
+          <p> Die Einhaltung der POUR-Grundsaetze der WCAG 2.0 (<b>P</b>erceivable, <b>O</b>perable, <b>U</b>nderstandable, <b>R</b>obust) hilft Benutzerformulare barrierefrei und benutzerfreundlich zu gestalten.</p>
+          <p><a class="btn btn-default" href="form.html" role="button">Mehr erfahren &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Nach oben</a></p>
+        <p><a href="impressum.html">Impressum</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/holder.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Formular fuer Suche in der Wikipedia-Enzyklopaedie</title>
+<link rel="stylesheet" type="text/css" href="all.css" />
+</head>
+
+<body id="body_form">
+	<div class="big" id="big_form">
+	<span id="back">
+		<input type="button" class="btn" value="Zur Startseite &raquo;" onclick="location.assign('index.html')"/>
+	</span>
+	<span class="right">
+		<a href='http://wave.webaim.org/report#/https://eaur.cloudcontrolled.com/form.html'>
+			<img src="wcag2AAA.gif" alt="WCAG-Logo" />
+		</a>
+	</span>	
+		<h1>Die Enzyklopaedie Wikipedia durchsuchen:</h1>
+		<form id="search" action="http://de.wikipedia.org/wiki/Spezial:Suche">
+			<fieldset>
+				<legend>
+					<strong>Titelsuche</strong>
+				</legend>
+				<label for="searchTitle"><strong>Sie koennen einen oder mehrere Begriffe eingeben:</strong> </label> 
+				<input class="btn" id="searchTitle" type="text" name="search" size="54" value="" /><br /> 
+				<input class="btn" id="goTitle" type="submit" name="go" value="Durchsuchen &raquo;" /> 
+				<input class="btn" id="resetTitle" type="reset" name="reset" value="Eingabefeld leeren &raquo;" /> 
+				<input class="index btn" type="button" value="Zur Wikipedia-Startseite gehen &raquo;" onclick="location.assign('http://de.wikipedia.org/wiki/Wikipedia:Hauptseite')" />
+			</fieldset>
+		</form>
+		<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+			<fieldset>
+				<legend>
+					<strong>Volltextsuche</strong>
+				</legend>
+				<label for="searchText"><strong>Sie koennen einen oder mehrere Begriffe eingeben:</strong>
+				</label> 
+				<input class ="btn" id="searchText" type="text" name="search" size="54" value="" /><br /> 
+				<input class="btn" id="goText" type="submit" name="fulltext" value="Durchsuchen &raquo;" /> 
+				<input class="btn" id="resetText" type="reset" name="reset" value="Eingabefeld leeren &raquo;" />
+				<input class="btn index" type="button" value="Zur Wikipedia-Startseite gehen &raquo;" onclick="location.assign('http://de.wikipedia.org/wiki/Wikipedia:Hauptseite')" />
+			</fieldset>
+			<h2>Tipps zur Suche:</h2>
+			<ol>
+				<li>Die Suche unterscheidet nicht zwischen Gross- und Kleinschreibung.</li>
+				<li>Wenn die Titelsuche erfolglos war, versuchen Sie es mit der Volltextsuche.</li>
+				<li>Die Volltextsuche zeigt Ihnen alle Seiten, die die gesuchten Begriffe beinhalten.</li>
+				<li>Wenn Ihnen die genaue Schreibweise nicht bekannt ist, tippen Sie in das Suchfeld Ihren Suchbegriff und das Tilde-Zeichen (~) ein.</li>
+			</ol>
+		</form>
+		<div id="footer">
+        <a href="#">Nach oben</a>
+      </div>
+	</div>
+	 
+</body>
+</html>
